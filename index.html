@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>LIX by error454</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/error454/csv-xml-i18n">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>LIX</h1>
+            <h2>An awesome tool for XML translations</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/error454/csv-xml-i18n/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/error454/csv-xml-i18n/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="lix-lua-i18n-xml-generator---the-g-is-silent" class="anchor" href="#lix-lua-i18n-xml-generator---the-g-is-silent"><span class="octicon octicon-link"></span></a>LIX (Lua I18N XML Generator - the G is silent)</h1>
+
+<p>Reads a CSV file containing translations, generates XML files for each file and language code.</p>
+
+<p>For instance a CSV file containing english and spanish translations for File1 and File2 would produce:</p>
+
+<ul>
+<li>File1-en.xml</li>
+<li>File1-es.xml</li>
+<li>File2-en.xml</li>
+<li>File2-es.xml</li>
+</ul><p>For more details on the architecture and usage, refer to the <a href="http://www.error454.com/2014/04/11/shiva-localization/">announcement article</a>.</p>
+
+<h2>
+<a name="sample-input-file" class="anchor" href="#sample-input-file"><span class="octicon octicon-link"></span></a>Sample Input File</h2>
+
+<p>The <a href="https://docs.google.com/spreadsheet/ccc?key=0AoGqxtUhFBJDdFRMU3c5RTNQSExiTnhYZFkxRUloU0E&amp;usp=sharing">sample spreadsheet</a> that was used to generate test.csv.</p>
+
+<h2>
+<a name="running-the-parser" class="anchor" href="#running-the-parser"><span class="octicon octicon-link"></span></a>Running the parser</h2>
+
+<p>Pass in the name of the file as the first and only argument:</p>
+
+<p>lua csvToXml.lua test.csv</p>
+
+<h2>
+<a name="engine-specific-implementation" class="anchor" href="#engine-specific-implementation"><span class="octicon octicon-link"></span></a>Engine Specific Implementation</h2>
+
+<p>A helper AI for the ShiVa game engine is included in the shiva folder. It simplifies reading in the xml files based on platform OS language.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/error454">error454</a> can be found on <a href="https://github.com/error454/csv-xml-i18n">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
