@@ -1,0 +1,13 @@
+language code,sq,ar,bg,ca,cs,da,nl,en,fi,fr,de,el,he,hu,is,it,ja,ko,nl,pl,pt,ro,ru,hr,sk,es,sv,th,tr,ur
+language name,Albanian,Arabic,Bulgarian,Catalan,Czech,Danish,Dutch,English,Finnish,French,German,Greek,Hebrew,Hungarian,Icelandic,Italian,Japanese,Korean,Norwegian,Polish,Portugese,Romanian,Russian,SerboCroatian,Slovak,Spanish,Swedish,Thai,Turkish,Urdu
+text direction,ltr,rtl,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,rtl,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,rtl
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MenuScreen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+title,Lojë awesome!,لعبة رهيبة!,Awesome Game!,Joc impressionant!,Awesome Game!,Awesome spil!,Awesome game!,Awesome Game!,Mahtava peli!,Jeu génial!,Fantastisches Spiel!,Φοβερό παιχνίδι!,משחק מדהים!,Awesome Game!,Awesome Game!,Impressionante gioco!,素晴らしいゲーム！,멋진 게임!,Awesome game!,Niesamowite gry!,Impressionante jogo!,Joc minunat!,Высокий игры!,Awesome igra!,Awesome Game!,Juego impresionante!,Awesome Game!,น่ากลัวเกม,Korku Oyunu!,بہت اچھا کھیل!
+start,Fillim,بداية,Начало,Començament,Start,Start,Begin,Start,Alku,Démarrer,Start-,Αρχή,התחלה,Kezdet,Start,Inizio,スタート,스타트,Begin,Początek,Começo,Start,Начало,Početak,Štart,Comienzo,Början,เริ่มต้น,Start,شروع کریں
+options,Options,خيارات,Опции,Opcions,Volby,Indstillinger,Opties,Options,Valinnat,Options de,Optionen,Επιλογές,אפשרויות,Beállítások,Valkostir,Opzioni,オプション,옵션,Opties,Opcje,Opções,Opțiuni,Опции,Opcije,Voľby,Opciones,Val,ตัวเลือก,Seçenekleri,اختیارات
+credits,Kredite,ائتمانات,Credits,Crèdits,Kredity,Credits,Credits,Credits,Laajuus,Crédits,Credits,Συντελεστές,קרדיטים,Credits,Einingar,Credits,クレジット,크레딧,Credits,Kredyty,Créditos,Credite,Кредиты,Krediti,Kredity,Créditos,Krediter,เครดิต,Krediler,کریڈٹ
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KeyBind,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jump,Shko,القفزة,Jump,Jump,Jump,Jump,Jump,Jump,Jump,Aller,Jump,Μετάβαση,קפיצה,Jump,Jump,Vai,ジャンプ,점프,Jump,Przejdź,Ir,Mergi,Перейти,Jump,Jump,Jump,Hoppa,กระโดด,Jump,چھلانگ
+attack,Sulm,هجوم,Атака,Atac,Útok,Attack,Aanval,Attack,Hyökkäys,Attaque,Angriff,Επίθεση,התקפה,Támadás,Árás,Attacco,攻撃,공격,Aanval,Atak,Ataque,Atac,Нападение,Napad,Útok,Ataque,Attack,โจมตี,Saldırı,حملہ
