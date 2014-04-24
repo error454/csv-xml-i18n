@@ -10,7 +10,15 @@ function I18N.loadXML ( sXMLFileName )
 	
     local hUser = application.getCurrentUser ( )
     local sLanguage = user.getAIVariable ( hUser, "I18N", "sLanguage" )
+    local sLanguageOverride = user.getAIVariable ( hUser, "I18N", "sLanguageOverride" )
     local sLocalizedFilename
+    
+    --
+    -- Set the language override if it exists
+    --
+    if not string.isEmpty ( sLanguageOverride ) then
+        sLanguage = sLanguageOverride
+    end
     
     --
     -- Make sure the resource is referenced, if not, fall back to english
