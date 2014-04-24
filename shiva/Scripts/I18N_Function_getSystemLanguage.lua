@@ -11,7 +11,7 @@ function I18N.getSystemLanguage ( )
     -- This follows ISO 639-1
 	local sLanguage = system.getOSLanguage ( )
     
-    if sLanguage == system.kLanguageAlbanian then this.sLanguage ( "sq" )
+    if sLanguage == system.kLanguageAlbanian             then this.sLanguage ( "sq" )
     elseif sLanguage == system.kLanguageArabic           then this.sLanguage ( "ar" )
     elseif sLanguage == system.kLanguageBulgarian        then this.sLanguage ( "bg" )
     elseif sLanguage == system.kLanguageCatalan          then this.sLanguage ( "ca" )
